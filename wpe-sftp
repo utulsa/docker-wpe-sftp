@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker run -it --rm --env-file="$ENV_FILE" -v "$(pwd)":/app utulsa/wpe-sftp:latest "$1"
+docker run -it --rm --env-file="$ENV_FILE" -v "$(pwd)":/downloads utulsa/wpe-sftp:latest "$1"
